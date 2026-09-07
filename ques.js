@@ -143,3 +143,60 @@
 // }
 // console.log(reversearry([10, 20, 50, 70, 90]));
 //q20
+// function displayfunction (calll) {
+//     setTimeout (calll , 3000);
+// }
+// function backkk () {
+//     console.log("helloooo");
+
+// }
+// displayfunction(backkk);
+//q21
+
+// function workofmap(arrr, callback) {
+//     let Ooooo = [];
+
+//     for (let i = 0; i < arrr.length; i++) {
+
+//         Ooooo.push(callback(arrr[i], i, arrr));
+
+//     }
+//     return Ooooo;
+// }
+// console.log(workofmap([10, 30, 40, 60], num => num * 2));
+//q22
+// function ccounter() {
+//     let oaaa = 0;
+//     return function () {
+//         return oaaa++;
+//     }
+
+// }
+
+// const counter = ccounter();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+
+//q23
+function limter(arr, limt) {
+    let la = 0;
+    return function () {
+        if (la < limt); {
+            limt++;
+            arr();
+        }
+    };
+}
+
+let arr = limter(() => console.log("Meowww"), 4);
+
+arr();
+arr();
+arr();
