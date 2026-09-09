@@ -185,18 +185,38 @@
 // console.log(counter());
 
 //q23
-function limter(arr, limt) {
-    let la = 0;
-    return function () {
-        if (la < limt); {
-            limt++;
-            arr();
-        }
-    };
-}
+// function limter(arr, limt) {
+//     let la = 0;
+//     return function () {
+//         if (la < limt); {
+//             limt++;
+//             arr();
+//         }
+//     };
+// }
 
-let arr = limter(() => console.log("Meowww"), 4);
+// let arr = limter(() => console.log("Meowww"), 4);
 
-arr();
-arr();
-arr();
+// arr();
+// arr();
+// arr();
+
+// Q24
+// function repeat(arr, inter) {
+//     setInterval(arr , inter * 1000)
+// }
+
+// repeat(() => console.log("meowwww"),3);
+
+// q25
+// function greeting (greet){
+//     return function (name){
+//         return `${greet} , ${name}`;
+//     };
+// }
+
+// const message = greeting ("hellooo");
+// console.log(message("jatt"));
+// console.log(message("saini"));
+
+// Q26
