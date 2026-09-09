@@ -219,4 +219,4 @@
 // console.log(message("jatt"));
 // console.log(message("saini"));
 
-// Q26
+q26
