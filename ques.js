@@ -220,22 +220,40 @@
 // console.log(message("saini"));
 
 // Q26
-function callback (fun){
-    let executed = false;
-    return function (args){
-        if(!executed ){
-            executed = true;
-            return fun (args);
-        }
+// function callback (fun){
+//     let executed = false;
+//     return function (args){
+//         if(!executed ){
+//             executed = true;
+//             return fun (args);
+//         }
 
-    };
+//     };
+// }
+
+// const fun = callback (function (){
+//     console.log("hellooooo bhen chooo");
+    
+// });
+
+// fun();
+// fun();
+// fun();
+
+// Q27 
+function throtte (fun , delay){
+let stop = 0;
+return function (args){
+    let now = Date.now();
+    if (now - stop >= delay ) {
+        stop = now;
+        fun(args);
+    }
+
+};
 }
 
-const fun = callback (function (){
-    console.log("hellooooo bhen chooo");
+const fun = throtte (function (){
+    console.log("bhenn choo ");
     
 });
-
-fun();
-fun();
-fun();
