@@ -219,4 +219,23 @@
 // console.log(message("jatt"));
 // console.log(message("saini"));
 
-q26
+// Q26
+function callback (fun){
+    let executed = false;
+    return function (args){
+        if(!executed ){
+            executed = true;
+            return fun (args);
+        }
+
+    };
+}
+
+const fun = callback (function (){
+    console.log("hellooooo bhen chooo");
+    
+});
+
+fun();
+fun();
+fun();
