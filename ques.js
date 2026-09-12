@@ -233,7 +233,7 @@
 
 // const fun = callback (function (){
 //     console.log("hellooooo bhen chooo");
-    
+
 // });
 
 // fun();
@@ -241,19 +241,22 @@
 // fun();
 
 // Q27 
-function throtte (fun , delay){
-let stop = 0;
-return function (args){
-    let now = Date.now();
-    if (now - stop >= delay ) {
-        stop = now;
-        fun(args);
+function throtte(fun, delay) {
+    let stop = 0;
+    return function (args) {
+        let now = Date.now();
+        if (now - stop >= delay) {
+            stop = now;
+            return fun(args);
+        }
     }
-
-};
 }
 
-const fun = throtte (function (){
-    console.log("bhenn choo ");
-    
-});
+const yoo = throtte(function () {
+    console.log("holyyy shit");
+
+},2000);
+
+yoo();
+yoo();
+yoo();
