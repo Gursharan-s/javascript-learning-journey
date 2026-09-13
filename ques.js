@@ -241,22 +241,23 @@
 // fun();
 
 // Q27 
-function throtte(fun, delay) {
-    let stop = 0;
-    return function (args) {
-        let now = Date.now();
-        if (now - stop >= delay) {
-            stop = now;
-            return fun(args);
-        }
-    }
-}
+// function throtte(fun, delay) {
+//     let stop = 0;
+//     return function (args) {
+//         let now = Date.now();
+//         if (now - stop >= delay) {
+//             stop = now;
+//             return fun(args);
+//         }
+//     }
+// }
 
-const yoo = throtte(function () {
-    console.log("holyyy shit");
+// const yoo = throtte(function () {
+//     console.log("holyyy shit");
 
-},2000);
+// },2000);
 
-yoo();
-yoo();
-yoo();
+// yoo();
+// yoo();
+// yoo();
+
