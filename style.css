@@ -9,7 +9,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.h1 {
-    font-size: 2rem;
-    color: brown;
+#box {
+    margin-top: 4rem;
+    margin-left: 37rem;
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    border-radius: 4rem;
+    border: 14px solid yellow;
+
+}
+
+button {
+    margin-top: 4rem;
+    margin-left: 37rem;
+    width: 350px;
+    height: 150px;
+   
+    border-radius: 2rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#box :active {
+    transform : scale (0.95);
 }
