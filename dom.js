@@ -9,13 +9,13 @@
 //     console.log("oaaaa ");
 
 // })
-var btn = document.querySelector('button');
-var bo = document.querySelector('#box');
+// var btn = document.querySelector('button');
+// var bo = document.querySelector('#box');
 
-btn.addEventListener('click', function () {
-    var y1 = Math.floor(Math.random() * 256);
-    var y2 = Math.floor(Math.random() * 256);
-    var y3 = Math.floor(Math.random() * 256);
+// btn.addEventListener('click', function () {
+//     var y1 = Math.floor(Math.random() * 256);
+//     var y2 = Math.floor(Math.random() * 256);
+//     var y3 = Math.floor(Math.random() * 256);
 
-    bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
-})
+//     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
+// })
