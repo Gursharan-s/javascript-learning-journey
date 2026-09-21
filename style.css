@@ -55,12 +55,3 @@ button {
     justify-content: center;
 }
 
-.button::image {
-    border: 2rem;
-    width: 200px;
-    height: 200px;
-    background-image:
-        url(1.jpeg),
-        url(2.jpeg),
-        url(3.png),;
-}

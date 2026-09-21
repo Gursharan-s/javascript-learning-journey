@@ -20,3 +20,8 @@
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
 var btn = document.querySelector("button");
+var  img = document.querySelector("image");
+
+btn.addEventListener ('click' , function () {
+    img.style.backgroundImage(URL('1.'))
+})
