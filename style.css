@@ -29,7 +29,7 @@ button {
     border-radius: 2rem;
     font-size: 2.5rem;
     text-transform: uppercase;
-}   
+}
 
 #box :active {
     transform: scale (0.95);
@@ -54,9 +54,13 @@ button {
     display: flex;
     justify-content: center;
 }
-.image {
+
+.button::image {
     border: 2rem;
     width: 200px;
     height: 200px;
-    background-image: url(1.jpeg) , url(3.png);
-} 
+    background-image:
+        url(1.jpeg),
+        url(2.jpeg),
+        url(3.png),;
+}
