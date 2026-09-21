@@ -19,3 +19,4 @@
 
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
+var btn = document.querySelector("button");
