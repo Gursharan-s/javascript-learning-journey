@@ -55,3 +55,12 @@ button {
     justify-content: center;
 }
 
+.photo {
+    margin-top: 4rem;
+    margin-left: 37rem;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 4rem;
+    border: 14px solid yellow;
+}
