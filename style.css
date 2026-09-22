@@ -55,12 +55,88 @@ button {
     justify-content: center;
 }
 
-.photo {
-    margin-top: 4rem;
-    margin-left: 37rem;
+.img1 {
+    margin: 6rem auto 0;
     width: 350px;
     height: 350px;
-    object-fit: cover;
-    border-radius: 4rem;
-    border: 14px solid yellow;
+    border-radius: 2rem;
+    overflow: hidden;
+   
+}
+.img1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 2rem;
+  border: 13px solid palevioletred;
+
+}
+.img2 {
+    margin: 6rem auto 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 2rem;
+    overflow: hidden;
+   
+}
+.img2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 2rem;
+  border: 13px solid palevioletred;
+
+}
+.img3 {
+    margin: 6rem auto 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 2rem;
+    overflow: hidden;
+   
+}
+.img3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 2rem;
+  border: 13px solid palevioletred;
+
+}
+.img4 {
+    margin: 6rem auto 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 2rem;
+    overflow: hidden;
+   
+}
+.img4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 2rem;
+  border: 13px solid palevioletred;
+
+}
+.img5 {
+    margin: 6rem auto 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 2rem;
+    overflow: hidden;
+   
+}
+.img5 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 2rem;
+  border: 13px solid palevioletred;
+
 }

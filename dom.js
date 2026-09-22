@@ -19,9 +19,36 @@
 
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
-var btn = document.querySelector("button");
-var  img = document.querySelector("image");
+var btn = document.querySelector('button');
+var photos = document.querySelector('#photo');
+var head2 = document.querySelector('#head2');
+var photos = [
+    "1.jpeg",
+    "2.jpeg",
+    "3.png",
+    "5.png",
+    "4.png"
+];
 
-btn.addEventListener ('click' , function () {
-    img.style.backgroundImage(URL('1.'))
-})
+var head2 = [
+    "Maybe this guy?",
+    "They had so much i can't handle this 💦",
+    "What was your size",
+    "This guy will perfect for my last year 😈",
+    "They had  small but good for time pass 😏"
+]
+
+var count = 0;
+
+btn.addEventListener('click', function () {
+
+    count++;
+
+    if (count >= photo.length) {
+        count = 0;
+    }
+
+    photo.src = photos[count];
+    head2.textContent = headings[count];
+
+});
