@@ -22,7 +22,7 @@ image {
 }
 
 button {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 37rem;
     width: 350px;
     height: 150px;
@@ -42,11 +42,11 @@ button {
     font-weight: 600;
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .head1 {
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-size: 3rem;
@@ -56,7 +56,7 @@ button {
 }
 
 .img1 {
-    margin: 6rem auto 0;
+    margin: 4rem auto 0;
     width: 350px;
     height: 350px;
     border-radius: 2rem;
@@ -64,74 +64,6 @@ button {
    
 }
 .img1 img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 2rem;
-  border: 13px solid palevioletred;
-
-}
-.img2 {
-    margin: 6rem auto 0;
-    width: 350px;
-    height: 350px;
-    border-radius: 2rem;
-    overflow: hidden;
-   
-}
-.img2 img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 2rem;
-  border: 13px solid palevioletred;
-
-}
-.img3 {
-    margin: 6rem auto 0;
-    width: 350px;
-    height: 350px;
-    border-radius: 2rem;
-    overflow: hidden;
-   
-}
-.img3 img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 2rem;
-  border: 13px solid palevioletred;
-
-}
-.img4 {
-    margin: 6rem auto 0;
-    width: 350px;
-    height: 350px;
-    border-radius: 2rem;
-    overflow: hidden;
-   
-}
-.img4 img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 2rem;
-  border: 13px solid palevioletred;
-
-}
-.img5 {
-    margin: 6rem auto 0;
-    width: 350px;
-    height: 350px;
-    border-radius: 2rem;
-    overflow: hidden;
-   
-}
-.img5 img {
   height: 100%;
   width: 100%;
   object-fit: cover;

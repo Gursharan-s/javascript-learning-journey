@@ -20,8 +20,9 @@
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
 var btn = document.querySelector('button');
-var photos = document.querySelector('#photo');
-var head2 = document.querySelector('#head2');
+var photo = document.querySelector('#photo');
+var head1 = document.querySelector('.head1');
+
 var photos = [
     "1.jpeg",
     "2.jpeg",
@@ -30,13 +31,13 @@ var photos = [
     "4.png"
 ];
 
-var head2 = [
+var headings = [
     "Maybe this guy?",
-    "They had so much i can't handle this 💦",
-    "What was your size",
-    "This guy will perfect for my last year 😈",
-    "They had  small but good for time pass 😏"
-]
+    "They had so much big, I can't handle this 😭💦",
+    "What was your size? 🤔",
+    "This guy will be perfect for my last year 👹😈",
+    "They had small 😂 but good for time pass 😏",
+];
 
 var count = 0;
 
@@ -44,11 +45,11 @@ btn.addEventListener('click', function () {
 
     count++;
 
-    if (count >= photo.length) {
+    if (count >= photos.length) {
         count = 0;
     }
 
     photo.src = photos[count];
-    head2.textContent = headings[count];
+    head1.textContent = headings[count];
 
 });
