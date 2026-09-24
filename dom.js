@@ -37,11 +37,7 @@ btn.addEventListener('click', function () {
             btn.innerHTML = 'Remove Now'
             flg = 1
         }, 3000)
-    } else {
-        flg = 0
-        head.innerHTML = 'Stranger'
-        head.style.color = 'orange'
-        btn.innerHTML = 'Add Now'
+    } 
 
     }
 });
