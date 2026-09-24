@@ -20,36 +20,28 @@
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
 var btn = document.querySelector('button');
-var photo = document.querySelector('#photo');
-var head1 = document.querySelector('.head1');
+var head = document.querySelector('.box1');
 
-var photos = [
-    "1.jpeg",
-    "2.jpeg",
-    "3.png",
-    "5.png",
-    "4.png"
-];
-
-var headings = [
-    "Maybe this guy?",
-    "They had so much big, I can't handle this 😭💦",
-    "What was your size? 🤔",
-    "This guy will be perfect for my last year 👹😈",
-    "They had small 😂 but good for time pass 😏",
-];
-
-var count = 0;
+var flg = 0
 
 btn.addEventListener('click', function () {
+    if (flg == 0) {
 
-    count++;
+        head.innerHTML = 'Sending....'
+        head.style.color = 'skyblue'
+        btn.innerHTML = 'Request Now'
 
-    if (count >= photos.length) {
-        count = 0;
+        setTimeout(function () {
+            head.innerHTML = 'Friends....'
+            head.style.color = 'red'
+            btn.innerHTML = 'Remove Now'
+            flg = 1
+        }, 3000)
+    } else {
+        flg = 0
+        head.innerHTML = 'Stranger'
+        head.style.color = 'orange'
+        btn.innerHTML = 'Add Now'
+
     }
-
-    photo.src = photos[count];
-    head1.textContent = headings[count];
-
 });
