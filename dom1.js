@@ -1,25 +1,19 @@
 var btn = document.querySelector('button');
 var per = document.querySelector('.sec');
-var lin = document.querySelector('.line');
+var lin = document.querySelector('#line1');
 var sta = document.querySelector('.fir');
-
-var flg = 0;
+var grow = 0;
 
 btn.addEventListener('click', function () {
-    if (flg == 0) {
-        sta.innerHTML = 'Completed..'
-        btn.innerHTML = 'Done'
-
-        setTimeout(function () {
-            setInterval(() => {
-                
-            }, interval);
-            flg = 1
-        }, 100)
-    }
-    else {
-        flg = 0
-        sta.innerHTML = 'Started..'
+    var int = setInterval(() => {
+        grow++
+        per.innerHTML = grow + '%'
+        lin.style.width = grow+'%'
+    }, 50);
+    setTimeout(function () {
+        clearInterval(int)
         btn.innerHTML = 'Downloading'
-    }
+        sta.innerHTML = 'Done..'
+    }, 5000)
+
 })
