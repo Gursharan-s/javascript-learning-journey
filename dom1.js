@@ -1,6 +1,6 @@
 var btn = document.querySelector('button');
 var per = document.querySelector('.sec');
-var lin = document.querySelector('.line1');
+var lin = document.querySelector('.lin1');
 var sta = document.querySelector('.fir');
 var grow = 0;
 
