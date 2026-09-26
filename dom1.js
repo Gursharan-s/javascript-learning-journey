@@ -16,6 +16,7 @@ btn.addEventListener('click', function () {
         clearInterval(int)
         btn.innerHTML = 'Downloading'
         sta.innerHTML = 'Done..'
+        btn.style.backgroundColor = '#90ee90'
     }, 5000)
 
 })
