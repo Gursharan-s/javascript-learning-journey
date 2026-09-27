@@ -20,7 +20,7 @@
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
 var btn = document.querySelector('button');
-var head = document.querySelector('.box1');
+var head = document.querySelector('.box2');
 
 var flg = 0
 
