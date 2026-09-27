@@ -1,7 +1,7 @@
 var btn = document.querySelector('button');
 var per = document.querySelector('.sec');
 var lin = document.querySelector('.lin1');
-var sta = document.querySelector('.fir');
+var sta = document.querySelector('.fir1');
 var grow = 0;
 
 btn.addEventListener('click', function () {
