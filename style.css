@@ -39,7 +39,7 @@ body {
 
 }
 
-.box {
+.box1 {
     margin-left: 2.7rem;
     border: 14px;
     display: flex;
@@ -51,7 +51,7 @@ body {
     color: whitesmoke;
 }
 
-.box1 {
+.box2 {
     font-size: 3rem;
     display: flex;
     justify-content: center;
