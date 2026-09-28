@@ -19,29 +19,29 @@
 
 //     bo.style.backgroundColor = `rgb(${y1} , ${y2} , ${y3})`
 // })
-var btn = document.querySelector('button');
-var head = document.querySelector('.box2');
+// var btn = document.querySelector('button');
+// var head = document.querySelector('.box2');
 
-var flg = 0
+// var flg = 0
 
-btn.addEventListener('click', function () {
-    if (flg == 0) {
+// btn.addEventListener('click', function () {
+//     if (flg == 0) {
 
-        head.innerHTML = 'Sending....'
-        head.style.color = 'skyblue'
-        btn.innerHTML = 'Request Now'
+//         head.innerHTML = 'Sending....'
+//         head.style.color = 'skyblue'
+//         btn.innerHTML = 'Request Now'
 
-        setTimeout(function () {
-            head.innerHTML = 'Friends....'
-            head.style.color = 'red'
-            btn.innerHTML = 'Remove Now'
-            flg = 1
-        }, 3000)
-    } else {
-        flg = 0
-        head.innerHTML = 'Stranger'
-        head.style.color = 'orange'
-        btn.innerHTML = 'Add Now'
+//         setTimeout(function () {
+//             head.innerHTML = 'Friends....'
+//             head.style.color = 'red'
+//             btn.innerHTML = 'Remove Now'
+//             flg = 1
+//         }, 3000)
+//     } else {
+//         flg = 0
+//         head.innerHTML = 'Stranger'
+//         head.style.color = 'orange'
+//         btn.innerHTML = 'Add Now'
 
-    }
-});
+//     }
+// });
