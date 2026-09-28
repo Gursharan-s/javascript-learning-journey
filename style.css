@@ -10,7 +10,19 @@ body {
 }
 
 .back{
-    width: 200px;
-    height: 300px;
-    background-color: black;
+    margin: 2rem 35rem;
+    width: 400px;
+    height: 650px;
+    background-color: rgb(60, 79, 222);
+    border-radius: 22px;
+    box-shadow: 0px 0px 10px soild rgb(105, 11, 11);
+    
+}
+.video {
+    display: flex;
+    object-fit: contain;
+    width: 300px;
+    height: 550px;
+    border-radius: 22px;
+    margin: 2rem 3rem;
 }
