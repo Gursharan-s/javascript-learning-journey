@@ -12,7 +12,7 @@ body {
 .back{
     margin: 2rem 35rem;
     width: 400px;
-    height: 650px;
+    height: 675px;
     background-color: rgb(60, 79, 222);
     border-radius: 22px;
     box-shadow: 0px 0px 10px soild rgb(105, 11, 11);
@@ -24,12 +24,36 @@ body {
     width: 300px;
     height: 550px;
     border-radius: 22px;
-    margin: 4rem 3rem;
 }
-.fir {
-    width: 30px;
-    height: 30px;
+#vid {
+    box-shadow: 0px 0px 15px  black ;
+    border-radius: 12px;
+    margin: 2rem;
+    width: 600px;
+    height: 600px;
+}
+
+.buttons {
+    position: absolute;
+    right: 38rem;
+    top: 20rem;
+    bottom: 80px;
+
     display: flex;
-    margin-left: 22rem;
-    margin-top: 1rem;
+    flex-direction: column;
+    gap: 76px;
+}
+
+.buttons button {
+    width: 55px;
+    height: 65px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(247, 244, 244, 0);
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);
 }
