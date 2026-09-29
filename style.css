@@ -36,12 +36,12 @@ body {
 .buttons {
     position: absolute;
     right: 38rem;
-    top: 20rem;
+    top: 15rem;
     bottom: 80px;
 
     display: flex;
     flex-direction: column;
-    gap: 76px;
+    gap: 89px;
 }
 
 .buttons button {
