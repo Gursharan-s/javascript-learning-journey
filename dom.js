@@ -45,5 +45,45 @@
 
 //     }
 // });
-var btn = document.querySelector('button');
-var 
+
+var video = document.querySelector('#vid');
+var btn1 = document.querySelector('.fir');
+var btn2 = document.querySelector('.sec');
+
+function like() {
+    btn1.textContent = "💖";
+    btn2.textContent = "💭";
+
+    btn1.style.transform = "scale(1.3)";
+    btn2.style.transform = "scale(1.3)";
+
+    setTimeout(function () {
+        btn1.style.transform = "scale(1.1)";
+        btn2.style.transform = "scale(1.1)";
+
+    }, 200);
+
+
+}
+
+video.addEventListener('dblclick', like);
+
+
+btn1.addEventListener('click', function () {
+
+    if (btn1.textContent === "🤍") {
+        btn1.textContent = "💖";
+    }
+    else {
+        btn1.textContent = "🤍";
+    }
+});
+
+btn2.addEventListener('click' , function(){
+    if (btn2.textContent === "💬") {
+        btn2.textContent = "💭" ;
+    }
+    else {
+        btn2.textContent = "💬";
+    }
+})
