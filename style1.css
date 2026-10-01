@@ -22,6 +22,7 @@ body {
 .cursor{
     width: 25px;
     height: 25px;
+    mix-blend-mode:difference;
     background-color: antiquewhite;
     border-radius: 50px;
     position: absolute;
