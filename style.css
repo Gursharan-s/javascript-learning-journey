@@ -9,54 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.back{
-    margin: 2rem 35rem;
-    width: 400px;
-    height: 675px;
-    background-color: rgb(60, 79, 222);
-    border-radius: 22px;
-    box-shadow: 0px 0px 10px soild rgb(105, 11, 11);
+#main {
+    background-color: aliceblue;
     
-}
-.video {
-    display: flex;
-    object-fit: contain;
-    width: 300px;
-    height: 550px;
-    border-radius: 22px;
-}
-#vid {
-    box-shadow: 0px 0px 15px  black ;
-    border-radius: 12px;
-    margin: 2rem;
-    width: 600px;
-    height: 600px;
-}
-
-.buttons {
-    position: absolute;
-    right: 38rem;
-    top: 15rem;
-    bottom: 80px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 89px;
-}
-
-.buttons button {
-    width: 55px;
-    height: 65px;
-    border: none;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 50px;
-    cursor: pointer;
-}
-
-.fir:active {
-    transform: scale(1.19);
-}
-.sec:active {
-    transform: scale(1.19);
 }
