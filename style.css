@@ -11,13 +11,14 @@ body {
 
 #main {
     background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 2rem;
 }
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 2rem;
     font-weight: 600;
     font-size: 2rem;
     
