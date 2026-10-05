@@ -20,8 +20,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    ma
 }
-.back {
-    width: 100px;
+#back1 {
+    width: 800px;
     height: 100px;
+
 }
