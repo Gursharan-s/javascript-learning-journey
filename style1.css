@@ -21,10 +21,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ma
+    margin: 3rem 28rem;
 }
 #back1 {
-    width: 800px;
-    height: 100px;
+    margin-top: 3rem;
+    object-fit: cover;
+    width: 600px;
+    height: 150px;
 
 }
