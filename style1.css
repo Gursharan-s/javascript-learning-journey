@@ -31,6 +31,7 @@ body {
 
 }
 #logo {
+    left: 31rem;
     position: absolute;
     width: 120px;
     height: 100px;
